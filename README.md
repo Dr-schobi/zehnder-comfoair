@@ -25,8 +25,18 @@ Inside the TCP232, the bridge was shorted. This way, 5V can be fed into the TCP2
 ![IMG_20230901_155604](https://github.com/Dr-schobi/zehnder-comfoair/assets/78444256/cce6e74f-ee2a-40fb-b6e2-473611d66d76)
 
 
+## thoughts for the future
+
+Now that I have enough PoE ports on the switch, this seems much simpler. No risk of shorting the ComfoAir:
+- a PoE splitter with barrel jack
+- an USR TCP232
+- a ready-made RJ45 to DB9 adapter (there are configurable adapters available)
+
+
 ## Software 
 
 A module for the Edomi KNX automation is used to fetch the data. See [in the forum](https://knx-user-forum.de/forum/projektforen/edomi/992693-lbs-f%C3%BCr-zehnder-comfoair-ca350-550-stork-und-baugleiche)
+
+
 
 
